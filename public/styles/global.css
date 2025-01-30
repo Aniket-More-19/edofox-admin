@@ -1,0 +1,30 @@
+/* Global Styles */
+
+:root {
+  --primary-color: #f45120;
+  --primary-hover: #e64a1c;
+  --secondary-color: #ff7045;
+  --text-color: #333333;
+  --text-medium-dark: #6c757d;
+  --light-orange: #ffccbc;
+  --white: #ffffff;
+  --input-bg: #f8f9fa;
+  --box-shadow: 0 0.5rem 1.5rem rgba(244, 81, 32, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: linear-gradient(
+    135deg,
+    var(--light-orange) 0%,
+    var(--white) 100%
+  ); */
+  background: linear-gradient(135deg, #ff6232 0%, var(--white) 100%);
+  /* font-family: "Segoe UI", sans-serif; */
+  font-family: "Inter", sans-serif;
+}
