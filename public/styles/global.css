@@ -24,7 +24,7 @@ body {
     var(--light-orange) 0%,
     var(--white) 100%
   ); */
-  background: linear-gradient(135deg, #ff6232 0%, var(--white) 100%);
+  background: linear-gradient(135deg, #ff4e18 0%, var(--white) 120%);
   /* font-family: "Segoe UI", sans-serif; */
   font-family: "Inter", sans-serif;
 }
