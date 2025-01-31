@@ -6,7 +6,7 @@
 
     <!-- This image only for desktop screens -->
     <div class="img-container">
-        <img src="<?php echo base_url('images/login/desktop-img.png') ?>" alt="">
+        <img src="<?php echo base_url('images/login/desktop-img.png') ?>" alt="desktop large login image">
     </div>
 
     <div class="login-parent-container ">
@@ -22,16 +22,16 @@
 
             <!-- Login Illustration -->
             <div class="text-center mb-4">
-                <img src="<?php echo base_url('images/login/login-img.jpg') ?>" alt="Login Illustration" class="login-illustration">
+                <img src="<?php echo base_url('images/login/login-img.png') ?>" alt="Login Illustration" class="login-illustration">
             </div>
 
             <!-- Login Form -->
             <form class="login-form">
                 <div class="form-group floating-input mb-4">
                     <div class="input-group input-group-lg">
-                        <!-- <span class="input-group-text border-end-0">
+                        <span class="input-group-text border-end-0">
                             <i class="fas fa-user"></i>
-                        </span> -->
+                        </span>
                         <div class="form-floating flex-grow-1">
                             <input type="text" class="form-control border-start-0" id="username" placeholder="Username" required>
                             <label for="username">Username</label>
@@ -41,9 +41,9 @@
 
                 <div class="form-group floating-input mb-4">
                     <div class="input-group input-group-lg">
-                        <!-- <span class="input-group-text border-end-0">
+                        <span class="input-group-text border-end-0">
                             <i class="fas fa-lock"></i>
-                        </span> -->
+                        </span>
                         <div class="form-floating flex-grow-1">
                             <input type="password" class="form-control border-start-0" id="password" placeholder="Password" required>
                             <label for="password">Password</label>

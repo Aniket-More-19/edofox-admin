@@ -222,90 +222,30 @@
   box-shadow: none;
 }
 
-@media screen and (min-height: 41.688rem) and (max-height: 43.75rem) {
-  .login-container {
-    padding: 1rem 1.5rem;
-  }
-
-  /* Logo Styles */
-
-  .logo-img {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .brand-name {
-    color: var(--primary-color);
-    font-size: 1.3rem;
-  }
-
-  .admin-text {
-    color: var(--secondary-color);
-    font-size: 0.6rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-  }
-
-  /* Login Illustration */
-  .login-illustration {
-    width: 6rem;
-    height: auto;
-  }
-
-  /* Form Styles */
-
-  .floating-input .form-control {
-    height: 3rem;
-    padding: 1rem 0.75rem;
-  }
-
-  .floating-input .form-floating label {
-    font-size: 1rem;
-  }
-
-  /* Button Styles */
-  .login-btn,
-  .reset-btn {
-    height: 3rem;
-  }
-
-  /* Social Login Styles */
-
-  .divider-text {
-    font-size: 0.875rem;
-  }
-
-  .btn-social {
-    height: 3rem;
-  }
-
-  .btn-social img {
-    width: 1.4rem;
-    height: 1.4rem;
-  }
-}
-
-@media screen and (min-height: 46.25rem) and (max-height: 52.5rem) {
-  .login-container {
-    padding: 1rem 1.5rem;
-  }
-}
-
 @media screen and (min-width: 48rem) {
   .login-parent-container {
-    padding: 1rem 2rem;
+    padding: 1rem 6rem;
   }
   .login-container {
     padding: 4rem 6rem;
+  }
+
+  .floating-input .form-control {
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+
+  .input-group i {
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (min-width: 51.25rem) {
   .login-parent-container {
-    padding: 2rem 4rem;
+    padding: 2rem 7rem;
   }
   .login-container {
-    padding: 5rem 7rem;
+    padding: 5rem 6rem;
   }
 
   /* Logo Styles */
@@ -333,7 +273,12 @@
 
   .floating-input .form-control {
     height: 4rem;
+    font-size: 1.4rem;
     padding: 1rem 0.75rem;
+  }
+
+  .input-group i {
+    font-size: 1.4rem;
   }
 
   .floating-input .form-floating label {
@@ -366,10 +311,10 @@
 
 @media screen and (min-width: 64rem) {
   .login-parent-container {
-    padding: 2rem 4rem;
+    padding: 2rem 9rem;
   }
   .login-container {
-    padding: 5rem 8rem;
+    padding: 3rem 8rem;
   }
 
   /* Logo Styles */
@@ -385,6 +330,17 @@
 
   .admin-text {
     font-size: 1rem;
+  }
+
+  /* form styles */
+
+  .floating-input .form-control {
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+
+  .input-group i {
+    font-size: 1.4rem;
   }
 
   /* Login Illustration */
@@ -418,11 +374,11 @@
   /* login styles */
 
   .login-parent-container {
-    padding: 0rem 11rem;
+    padding: 0rem 10rem;
   }
 
   .login-container {
-    padding: 2rem 4rem;
+    padding: 3rem 4rem;
   }
 
   /* Logo Styles */
@@ -450,6 +406,11 @@
 
   .floating-input .form-control {
     height: 3.2rem;
+    font-size: 1.7;
+  }
+
+  .input-group i {
+    font-size: 1.3rem;
   }
 
   /* Button Styles */
@@ -473,5 +434,97 @@
   .btn-social img {
     width: 1.4rem;
     height: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 160rem) {
+  /* show image only for desktop */
+  .img-container img {
+    display: block;
+    width: 65rem;
+    height: auto;
+  }
+
+  .login-page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fd6030; */
+  }
+
+  /* login styles */
+
+  .login-parent-container {
+    padding: 0rem 20rem;
+    /* background: linear-gradient(135deg, #f57953 0%, var(--white) 100%); */
+  }
+
+  .login-container {
+    padding: 8rem 8rem;
+  }
+
+  /* Logo Styles */
+
+  .logo-img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .brand-name {
+    font-size: 3rem;
+  }
+
+  .admin-text {
+    font-size: 1.5rem;
+  }
+
+  /* Login Illustration */
+  .login-illustration {
+    width: 11rem;
+    height: auto;
+  }
+
+  /* Form Styles */
+
+  .floating-input .form-control {
+    height: 3.8em;
+    font-size: 1.8rem;
+  }
+
+  .floating-input .form-floating label {
+    font-size: 1.4rem;
+  }
+
+  .input-group i {
+    font-size: 2rem;
+  }
+
+  /* Button Styles */
+  .login-btn,
+  .reset-btn {
+    height: 3.8rem;
+    font-size: 1.8rem;
+  }
+
+  /* Social Login Styles */
+
+  .divider-text {
+    font-size: 1.4rem;
+  }
+
+  .btn-social {
+    height: 3.8rem;
+    font-size: 1.8rem;
+  }
+
+  .btn-social img {
+    width: 1.9rem;
+    height: 1.9rem;
   }
 }
